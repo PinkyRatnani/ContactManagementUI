@@ -1,0 +1,32 @@
+.contact-home-container {
+    overflow: hidden hidden;
+
+    .contact-list-container {
+        padding: 2rem;
+        max-height: 88vh;
+        overflow-y: auto;
+    }
+
+    .contact-home-header {
+        height: 5rem;
+        background-color: lightgrey;
+        display: flex;
+        justify-content: start;
+        align-content: center;
+        box-shadow: 0px 0px 5px 5px grey;
+    }
+
+    .text-button {
+        background: none;
+        border: none;
+        margin: 0;
+        padding: 2rem;
+        cursor: pointer;
+    }
+
+    .search-bar {
+        height: 2rem;
+        align-self: center;
+        border: none;
+    }
+}
